@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/balack"
+    tools:context=".personal_informationActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="14dp"
+        android:editable="false"
+        android:hint="姓名："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/sex"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="77dp"
+        android:editable="false"
+        android:hint="性别："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/home"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="134dp"
+        android:editable="false"
+        android:hint="籍贯："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="201dp"
+        android:editable="false"
+        android:hint="邮箱："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="275dp"
+        android:editable="false"
+        android:hint="电话："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/happy"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="100dp"
+        android:layout_y="342dp"
+        android:editable="false"
+        android:hint="爱好："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_x="169dp"
+        android:layout_y="435dp"
+        android:background="@drawable/edit"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="413dp" />
+</AbsoluteLayout>

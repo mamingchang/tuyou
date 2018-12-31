@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/balack"
+    tools:context=".zhuceActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorDark"
+        android:text="TUYOU"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_x="0dp"
+        android:layout_y="51dp"
+        android:background="@color/colorDark"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="108dp"
+        android:layout_y="77dp"
+        android:hint="用户名："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="108dp"
+        android:layout_y="138dp"
+        android:hint="密码："
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+
+    <EditText
+        android:id="@+id/again"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="108dp"
+        android:layout_y="208dp"
+        android:hint="确认密码："
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/getone"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_x="41dp"
+        android:layout_y="296dp"
+        android:background="@drawable/word"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+
+    <EditText
+        android:id="@+id/inputone"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="108dp"
+        android:layout_y="285dp"
+        android:hint="输入验证码："
+        android:inputType="textCapWords"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="47dp"
+        android:layout_height="39dp"
+        android:layout_x="163dp"
+        android:layout_y="374dp"
+        android:background="@drawable/submit1"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+</AbsoluteLayout>

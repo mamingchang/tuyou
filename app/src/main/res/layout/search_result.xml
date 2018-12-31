@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/balack"
+    tools:context=".searchResultActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="94dp"
+        android:layout_y="14dp"
+        android:text="好友搜寻结果"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="44dp" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_x="0dp"
+        android:layout_y="75dp"
+        android:background="@color/colorDark"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_x="0dp"
+        android:layout_y="145dp"
+        android:background="@color/colorDark"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/name_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="102dp"
+        android:text="Demo"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/tianjiahaoyou"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:layout_x="297dp"
+        android:layout_y="82dp"
+        android:background="@drawable/getfriends"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="93dp" />
+</AbsoluteLayout>

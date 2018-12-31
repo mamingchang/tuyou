@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/balack">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="7dp"
+        android:gravity="center"
+        android:text="TUYOU"
+        android:textColor="@color/colorDark"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_x="0dp"
+        android:layout_y="64dp"
+        android:background="@color/colorDark"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <EditText
+        android:id="@+id/name_field"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="105dp"
+        android:layout_y="128dp"
+        android:hint="用户名："
+        android:inputType="textCapWords"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+
+    <EditText
+        android:id="@+id/password_field"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_x="105dp"
+        android:layout_y="212dp"
+        android:hint="密码："
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="173dp"
+        />
+
+    <Button
+        android:id="@+id/join"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_x="82dp"
+        android:layout_y="315dp"
+        android:background="@drawable/join"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/login"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_x="252dp"
+        android:layout_y="315dp"
+        android:background="@drawable/enter"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+</AbsoluteLayout>

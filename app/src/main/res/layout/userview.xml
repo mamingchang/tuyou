@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/balack"
+    tools:context=".usersViewActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/yonghutuxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="5dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="88dp"
+        android:text="level："
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/name_field"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_x="79dp"
+        android:layout_y="10dp"
+        android:text="用户名："
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/chazhaohaoyou"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        android:layout_x="92dp"
+        android:layout_y="73dp"
+        android:background="@drawable/findfriend"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/siyoutuku"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_x="291dp"
+        android:layout_y="10dp"
+        android:background="@drawable/frinedpicture"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/gerenxinxi"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_x="196dp"
+        android:layout_y="11dp"
+        android:background="@drawable/person"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/haoyoutuku"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:layout_x="189dp"
+        android:layout_y="77dp"
+        android:background="@drawable/selfpicture"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/gongyoutuku"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_x="294dp"
+        android:layout_y="78dp"
+        android:background="@drawable/commonpicture"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_x="4dp"
+        android:layout_y="138dp"
+        android:background="@color/colorDark"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/wuziqi"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_x="296dp"
+        android:layout_y="164dp"
+        android:background="@drawable/wuziqi"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/leitingzhanji"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_x="97dp"
+        android:layout_y="164dp"
+        android:background="@drawable/zhanji"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/tanchishe"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_x="198dp"
+        android:layout_y="164dp"
+        android:background="@drawable/tanchishe"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/numbergame"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_x="0dp"
+        android:layout_y="169dp"
+        android:background="@drawable/numbergame"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="220dp" />
+</AbsoluteLayout>
